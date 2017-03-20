@@ -1,4 +1,4 @@
-###run_analysis.R
+### run_analysis.R
 performs the following actions: 
 1.Merges the training and the test sets to create one data set.
 2.Extracts only the measurements on the mean and standard 
@@ -14,7 +14,7 @@ performs the following actions:
 To run this, ensure your working directory is set to the location 
 of this file and the data folders are in the current directory.
 
-###Inputs
+### Inputs
 The following files are used by this script:
 ./UCI HAR Dataset/activity_labels.txt
 ./UCI HAR Dataset/features.txt
@@ -25,10 +25,10 @@ The following files are used by this script:
 ./UCI HAR Dataset/test/y_test.txt
 ./UCI HAR Dataset/train/y_train.txt
 
-###Outputs
+### Outputs
 The following file is created:
 ./Week4_Project_Results.txt
 
-###Results
+### Results
 The output file contains the mean of each variable grouped by
 Subject and Action.
